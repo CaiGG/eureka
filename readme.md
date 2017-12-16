@@ -1,4 +1,5 @@
 ### eureka 注册中心
+
 eureka的基本架构，由3个角色组成：
 1. Eureka Server
     * 提供服务注册和发现
@@ -9,8 +10,8 @@ eureka的基本架构，由3个角色组成：
     * 服务消费方
     * 从Eureka 获取注册服务列表，从而能够消费服务。
 
-Eureka Server 实现注册中心只需要简单的几个步骤
 
+`Eureka Server` 实现注册中心只需要简单的几个步骤
 1. Pom中添加依赖
 
    ```

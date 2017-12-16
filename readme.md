@@ -1,4 +1,4 @@
-##eureka 注册中心
+### eureka 注册中心
 eureka的基本架构，由3个角色组成：
 1. Eureka Server
     * 提供服务注册和发现
@@ -58,4 +58,4 @@ Eureka Server 实现注册中心只需要简单的几个步骤
     * `eureka.client.fetch-registry` ：表示是否从Eureka Server获取注册信息，默认为true。
     * `eureka.client.serviceUrl.defaultZone` ：设置与Eureka Server 交互的地址，查询服务和注册服务都需要依赖这个地址。  默认是`http://localhost:8761/eureka` ；多个地址可使用 , 分隔。
 
-启动工程后，访问：http://localhost:8000/,即可看到eureka注册中心 
+启动工程后，访问：`http://localhost:8000/` 即可看到eureka注册中心 
